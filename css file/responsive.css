@@ -1,0 +1,289 @@
+
+/* small devices */
+
+@media screen and (max-width:576px) {
+
+  /* Univarsal  */
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Header */
+
+  #header {
+    height: fit-content;
+  }
+
+  .hero-content h1 {
+    padding: 42px 0px 32px;
+    font-size: 25px;
+    line-height: normal;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .hero-content p {
+
+    padding-bottom: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+    width: 90%;
+
+  }
+
+  .btn {
+    padding: 25px 205x;
+    background-color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  /* Futured Section */
+
+  .web-dev-section {
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    width: 90%;
+    padding: 10px 20px;
+
+  }
+
+  .web-dev-title h2 {
+
+    font-size: 25px;
+
+    margin-bottom: 13px;
+  }
+
+
+  .web-dev-title p {
+
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+
+  .div-sections {
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .main-btn {
+
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+    cursor: pointer;
+
+  }
+
+
+  .section-titles p {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .section-titles h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+
+  }
+
+  /* Inspiration  */
+
+  .inspiration-Section {
+    margin-top: 60px;
+    width: 90%;
+
+  }
+
+  .inspiration-video iframe {
+    width: 100%;
+    height: 200px;
+
+  }
+
+  .inspiration-video {
+    padding: 20px;
+  }
+
+  .inspiration-title h3 {
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .inspiration-title p {
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+
+  }
+
+  .inspiration-title {
+    margin-bottom: 40px;
+  }
+
+  .target-section {
+    width: 90%;
+    margin-top: 80px;
+
+
+  }
+
+  .target-title p {
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+    width: 80%;
+
+  }
+
+  .target-title h2 {
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+
+  .target-skills-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .target-skills {
+    width: 80%;
+    height: 300px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+
+  }
+
+
+  /* support section */
+
+  .support-section {
+    width: 90%;
+    height: fit-content;
+    justify-content: center;
+    margin-top: 50px;
+
+
+
+  }
+
+  .support-content h2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .support-content p {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .support-input [type="text"] {
+    width: 60%;
+    padding: 10px 15px;
+    font-size: 12px;
+
+
+
+  }
+
+  .support-input [type="button"] {
+
+    font-size: 12px;
+
+    padding: 10px 15px;
+    margin-left: 2px;
+
+  }
+
+  .support-content {
+    padding: 20px;
+  }
+
+
+  /* footer */
+
+  #footer {
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 40px;
+
+  }
+
+
+  .footer-content {
+    width: 90%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .footer-social {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .foot-text h4 {
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .footer-social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer-social img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+}
